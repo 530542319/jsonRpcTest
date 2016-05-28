@@ -4,7 +4,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <bean  class="com.googlecode.jsonrpc4j.spring.JsonProxyFactoryBean">
-        <property name="serviceUrl" value="http://localhost:8080/EhCacheExample-master/UserService.json"/>
+        <property name="serviceUrl" value="http://localhost:8080/EhCacheExample/UserService.json"/>
         <property name="serviceInterface" value="com.toptal.blog.service.UserService"/>
     </bean>
 
